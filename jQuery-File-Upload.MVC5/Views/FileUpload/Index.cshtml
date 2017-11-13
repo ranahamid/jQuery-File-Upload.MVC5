@@ -8,7 +8,9 @@
     $(function () {
 
         $form = $('#fileupload').fileupload({
-            dataType: 'json'
+            dataType: 'json',
+            maxNumberOfFiles: 1,
+            maxFileSize: 10000000,
         });
 
     });

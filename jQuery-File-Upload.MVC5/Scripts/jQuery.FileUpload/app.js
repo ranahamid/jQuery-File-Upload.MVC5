@@ -21,7 +21,8 @@
     ])
         .config([
             '$httpProvider', 'fileUploadProvider',
-            function ($httpProvider, fileUploadProvider) {
+            function ($httpProvider, fileUploadProvider)
+            {
                 delete $httpProvider.defaults.headers.common['X-Requested-With'];
                 fileUploadProvider.defaults.redirect = window.location.href.replace(
                     /\/[^\/]*$/,
@@ -34,7 +35,8 @@
         .controller('DemoFileUploadController', [
             '$scope', '$http', '$filter', '$window',
             function ($scope, $http) {
-                $scope.options = {
+                $scope.options =
+                    {
                    
                 };
               

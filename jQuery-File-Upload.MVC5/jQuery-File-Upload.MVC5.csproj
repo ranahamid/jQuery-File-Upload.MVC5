@@ -495,7 +495,6 @@
     <Content Include="Scripts\jQuery.FileUpload\jquery.fileupload.js" />
     <Content Include="Scripts\jQuery.FileUpload\jquery.iframe-transport.js" />
     <Content Include="Scripts\jQuery.FileUpload\load-image.all.min.js" />
-    <Content Include="Scripts\jQuery.FileUpload\tmpl.min.js" />
     <Content Include="Scripts\jQuery.FileUpload\vendor\jquery.ui.widget.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -506,7 +505,9 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\FileUpload\Index.cshtml" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -524,10 +525,12 @@
     <Content Include="Views\FileUpload\Show.cshtml" />
     <Content Include="Views\FileUpload\Edit.cshtml" />
     <Content Include="Views\FileUpload\_Files1.cshtml" />
+    <Content Include="Views\FileUpload\_Files - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Files\somefiles\thumbs\" />
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
